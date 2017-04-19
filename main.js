@@ -10,7 +10,6 @@ var charValue;
 function growIt () {
 	heightValue = parseInt(height.value);
 	charValue = char.value;
-	console.log(heightValue);
 	var treeObj = {height: heightValue, char: charValue};
 	if ((isNaN(heightValue)) || (charValue == '')) {
 		alert('Both Fields Must Have a Value')
